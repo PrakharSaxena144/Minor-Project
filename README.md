@@ -190,12 +190,19 @@ This project was inspired by participation in the
 ISRO Antariksh Hackathon, where exposure to satellite imagery and geospatial challenges motivated the idea of AI-based urban monitoring.
 
 📂 Repository Structure
+
 ├── project_files/        # ML & CV source files
+
 ├── notebooks/            # Jupyter notebooks
+
 ├── static/               # Images, results, CSS
+
 ├── templates/            # Django templates
+
 ├── core/                 # Django app
+
 ├── manage.py
+
 └── README.md
 
 #### 🚀 Future Scope
