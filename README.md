@@ -1,14 +1,14 @@
 # Minor-Project
 
-🏙️ Detection of Unplanned Urban Development using AI
+### 🏙️ Detection of Unplanned Urban Development using AI
 A Multi-Approach Framework with K-Means, SSIM & U-Net
 
-Minor Project (2024–25)
+#### Minor Project (2024–25 Winter Sem)
 Authors: Aryan Parashar & Prakhar Saxena
 Institute: Interdisciplinary Centre for Artificial Intelligence,
 Aligarh Muslim University (AMU)
 
-📌 Project Overview
+### 📌 Project Overview
 
 Rapid urbanization often leads to unplanned and unauthorized development, deviating from approved master plans. Manual monitoring is slow, subjective, and inefficient.
 
@@ -16,7 +16,7 @@ This project proposes an AI-driven framework to automatically detect urban devia
 
 The system not only performs detection but also visualizes results through an interactive Django web platform, making it accessible for planners, researchers, and authorities.
 
-🎯 Objectives
+### 🎯 Objectives
 
 Detect deviations between planned vs actual urban structures
 
@@ -30,11 +30,11 @@ Present results via a professional web interface
 
 Enable multi-location industrial site analysis
 
-🧠 Methodology Pipeline
+### 🧠 Methodology Pipeline
 
 The project follows a step-by-step evolution of techniques:
 
-1️⃣ Image Preprocessing
+#### 1️⃣ Image Preprocessing
 
 Grayscale conversion
 
@@ -42,7 +42,7 @@ Text & legend removal from master plans
 
 Noise reduction and normalization
 
-2️⃣ K-Means Clustering
+#### 2️⃣ K-Means Clustering
 
 Baseline segmentation of master plan regions
 
@@ -50,13 +50,13 @@ Color-based zoning extraction
 
 Fast but sensitive to illumination changes
 
-3️⃣ Feature Alignment (ORB)
+#### 3️⃣ Feature Alignment (ORB)
 
 Keypoint matching between satellite and plan images
 
 Homography-based spatial alignment
 
-4️⃣ Structural Similarity Index (SSIM)
+#### 4️⃣ Structural Similarity Index (SSIM)
 
 Pixel-wise similarity computation
 
@@ -64,7 +64,7 @@ Deviation heatmap generation
 
 Threshold-based compliance classification
 
-5️⃣ Deep Learning with U-Net
+#### 5️⃣ Deep Learning with U-Net
 
 U-Net with ResNet-50 encoder (transfer learning)
 
@@ -72,7 +72,7 @@ Semantic segmentation of buildings and roads
 
 Improved boundary precision and robustness
 
-6️⃣ Tiling-Based Deviation Analysis
+#### 6️⃣ Tiling-Based Deviation Analysis
 
 Large images divided into spatial tiles
 
@@ -80,11 +80,11 @@ Localized SSIM computation
 
 Area-wise deviation percentage estimation
 
-🏗️ Industrial Site Case Studies
+### 🏗️ Industrial Site Case Studies
 
 The system was tested on multiple industrial regions across Uttar Pradesh:
 
-📍 Aligarh District
+#### 📍 Aligarh District
 
 Atrauli Industrial Area (1991)
 
@@ -96,11 +96,11 @@ Sagvan City (2017)
 
 Ozone City (2005)
 
-📍 Hathras District
+#### 📍 Hathras District
 
 Salempur (2023)
 
-📍 Etah District
+#### 📍 Etah District
 
 IA Etah (2002)
 
@@ -120,7 +120,7 @@ Final AI compliance overlay
 
 Google Maps integration (via coordinates)
 
-🌐 Web Application (Django)
+#### 🌐 Web Application (Django)
 
 To make the project interactive and presentable, a Django-based web platform was developed.
 
@@ -132,11 +132,9 @@ To make the project interactive and presentable, a Django-based web platform was
 
 📊 Results Gallery – sliders, heatmaps, segmentation outputs
 
-🗺️ Multi-site Dashboard – industrial site-wise analysis
+#### 🗺️ Multi-site Dashboard – industrial site-wise analysis
 
-📍 Google Maps Integration – open sites via coordinates
-
-🖼️ Notebook Rendering – plots & outputs rendered from .ipynb
+#### 🖼️ Notebook Rendering – plots & outputs rendered from .ipynb
 
 🛠️ Tech Stack
 
@@ -186,7 +184,7 @@ Tiling-based SSIM provides localized deviation insights
 
 Deep learning improves robustness under real-world conditions
 
-🛰️ Inspiration
+#### 🛰️ Inspiration
 
 This project was inspired by participation in the
 ISRO Antariksh Hackathon, where exposure to satellite imagery and geospatial challenges motivated the idea of AI-based urban monitoring.
@@ -200,7 +198,7 @@ ISRO Antariksh Hackathon, where exposure to satellite imagery and geospatial cha
 ├── manage.py
 └── README.md
 
-🚀 Future Scope
+#### 🚀 Future Scope
 
 Real-time satellite data integration
 
@@ -212,7 +210,7 @@ Automated alert system for violations
 
 Scaling to city/state-level monitoring
 
-👨‍💻 Authors
+#### 👨‍💻 Authors
 
 Prakhar Saxena
 B.Tech (AI), AMU
@@ -222,7 +220,7 @@ Aryan Parashar
 B.Tech (AI), AMU
 Machine Learning • Research
 
-⭐ Acknowledgements
+#### ⭐ Acknowledgements
 
 Interdisciplinary Centre for Artificial Intelligence, AMU
 
