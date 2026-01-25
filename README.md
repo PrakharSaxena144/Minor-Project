@@ -217,6 +217,8 @@ Automated alert system for violations
 
 Scaling to city/state-level monitoring
 
+##### 🔗 Live Demo: https://unplannedurbandevelopmentdetection.streamlit.app/
+
 #### 👨‍💻 Authors
 
 Prakhar Saxena
