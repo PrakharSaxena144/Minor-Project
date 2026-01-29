@@ -217,6 +217,7 @@ Automated alert system for violations
 
 Scaling to city/state-level monitoring
 
+##### 🔗 Documentation: https://urban-deviation-ai.onrender.com/
 ##### 🔗 Live Demo: https://unplannedurbandevelopmentdetection.streamlit.app/
 
 #### 👨‍💻 Authors
