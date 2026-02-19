@@ -30,6 +30,7 @@ Present results via a professional web interface
 
 Enable multi-location industrial site analysis
 
+
 ### 🧠 Methodology Pipeline
 
 The project follows a step-by-step evolution of techniques:
@@ -80,6 +81,7 @@ Localized SSIM computation
 
 Area-wise deviation percentage estimation
 
+
 ### 🏗️ Industrial Site Case Studies
 
 The system was tested on multiple industrial regions across Uttar Pradesh:
@@ -120,6 +122,7 @@ Final AI compliance overlay
 
 Google Maps integration (via coordinates)
 
+
 #### 🌐 Web Application (Django)
 
 To make the project interactive and presentable, a Django-based web platform was developed.
@@ -131,6 +134,7 @@ To make the project interactive and presentable, a Django-based web platform was
 🧾 Code Explorer – view .py, .md, .ipynb files in-browser
 
 📊 Results Gallery – sliders, heatmaps, segmentation outputs
+
 
 #### 🗺️ Multi-site Dashboard – industrial site-wise analysis
 
